@@ -20,7 +20,7 @@ For those using the [Greaseweazle](https://github.com/keirf/greaseweazle "Grease
     gw write --diskdefs diskdefs.cfg --format zx.opus.sssd example.img
     ```
 
-#### Creating a Disk Image
+#### Creating a disk image
 
 1. Run the following command to read and create a disk image:
 
@@ -41,13 +41,31 @@ For those using the [Greaseweazle](https://github.com/keirf/greaseweazle "Grease
     gw write --diskdefs diskdefs.cfg --format zx.plusd.dsdd example.mgt
     ```
 
-#### Creating a Disk Image
+#### Creating a disk image
 
 1. Run the following command to read and create a disk image:
 
     ```sh
     gw read --diskdefs diskdefs.cfg --format zx.plusd.dsdd example.mgt
     ```
+### +3DOS
+
+#### Writing a .dsk disk image to floppy
+
+1. Run the following command to write the image:
+
+    ```sh
+    gw write example.dsk
+    ```
+#### Creating a disk image
+
+1. Place the `diskdefs.cfg` file into the main Greaseweazle directory.
+2. Run the following command to read and create a disk image:
+
+    ```sh
+    gw read --diskdefs diskdefs.cfg --format zx.3dos.sssd example.edsk
+    ```
+3. Change the filename extension from `.edsk` to `.dsk`.
 
 ## System Requirements
 
