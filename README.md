@@ -6,7 +6,7 @@ This repository contains disk images for ZX Spectrum floppy disk drives. These i
 
 For users of the [Greaseweazle](https://github.com/keirf/greaseweazle "Greaseweazle") device, this repository provides disk images compatible with built-in disk format definitions, simplifying the process of writing and creating images.
 
-#### The .diskdef disk definitions from this repository are no longer needed, as the [Greaseweazle](https://github.com/keirf/greaseweazle "Greaseweazle") software has supported them natively since version 1.22.
+#### The `diskdefs.cfg` disk definitions from this repository are no longer needed, as the [Greaseweazle](https://github.com/keirf/greaseweazle "Greaseweazle") software has supported them natively since version 1.22.
 ## How to Use
 
 ### Opus Discovery
